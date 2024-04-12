@@ -1,1 +1,1 @@
-An weather app created using Html, Css, Javascript. <br> It is majorly focuses on javascript implementation.
+An weather app created using Html, Css, Javascript. <br> It  majorly focuses on javascript implementation.
