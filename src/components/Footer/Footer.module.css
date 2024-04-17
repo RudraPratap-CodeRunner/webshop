@@ -71,3 +71,22 @@
     text-align: center;
     margin-bottom: 5px;
 }
+@media screen and (max-width:768px) {
+    .cFooter{
+        justify-content: flex-star;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        font-size: 1.7rem;
+        gap: 2rem;
+
+    }
+
+}
+@media screen and (max-width:640px) {
+    .cFooter{
+        justify-content: center;
+    }
+    .log{
+        display: none;
+    }
+}

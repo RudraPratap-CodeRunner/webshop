@@ -44,3 +44,48 @@
     height: 1.5rem;
     cursor: pointer;
 }
+
+.bars{
+    cursor: pointer;
+}
+
+/* responsive code  */
+
+
+@media screen and (max-width:856px){
+    .search{
+        display: none;
+        .right{
+            gap: 1rem;
+        }
+    }
+}
+
+@media screen and (max-width:640px){
+    .right{
+        position: absolute;
+        right: 2rem;
+        z-index: 9999;
+        background: #fff;
+        color: var(--black);
+        border-radius: 5px;
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .cart{
+        display: none;
+    }
+    .menu{
+        flex-direction: column;
+        margin-left: -2rem;
+        display: none;
+
+    }
+    .search{
+        display: none;
+    }
+    .bars{
+        display: block;
+       
+    }
+}
